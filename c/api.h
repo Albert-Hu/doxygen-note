@@ -102,8 +102,8 @@ enum number {
  * The structure that represents a buffer.
  */
 struct buffer {
-  void *data; /*< pointer to allocated memory. */
-  unsigned int size; /*< size of buffer. */
+  void *data; /**< pointer to allocated memory. */
+  unsigned int size; /**< size of buffer. */
 };
 
 /**
